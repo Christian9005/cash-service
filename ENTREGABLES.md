@@ -1,22 +1,17 @@
 # Entregables
 
-## Repositorio publico en GitHub
+## Repositorios publicos en GitHub
 
-El entregable pide publicar todos los archivos generados en un repositorio publico y pegar la URL en los comentarios del ejercicio.
+Backend:
 
-En esta maquina `gh` esta instalado, pero la sesion actual de GitHub tiene el token vencido. Primero inicia sesion:
-
-```bash
-gh auth login -h github.com
+```text
+https://github.com/Christian9005/cash-service
 ```
 
-Despues puedes crear el repositorio publico desde la carpeta que decidas subir:
+Frontend:
 
-```bash
-git init
-git add .
-git commit -m "Entrega prueba tecnica"
-gh repo create cash-service-entrega --public --source=. --remote=origin --push
+```text
+https://github.com/Christian9005/bank-frontend
 ```
 
 ## Archivo comprimido
